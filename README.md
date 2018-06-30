@@ -21,7 +21,7 @@ Version *(v1.0.0)*-*(v1.0.3)* is on my local computer (not GitHub).
 - Commands
     - [x] Help (v1.0.0)
     - [x] Greetings & Getting Started Button (v1.0.1)
-    - [ ] Giphy
+    - [x] Giphy (v1.0.5)
     - [ ] Conversation & 8ball *(Discord Style bruh)*
     - [ ] Anime & Manga Lookup *(Must lel)*
 
