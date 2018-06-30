@@ -11,6 +11,9 @@ Version *(v1.0.0)*-*(v1.0.3)* is on my local computer (not GitHub).
 4. Edit `.env` and Fill `ACCESS_TOKEN`, `VERIFY_TOKEN`, &amp; `APP_SECRET` with your Facebook App Details.
 5. Done?, You're ready to go!, run `npm start` or `node index.js`
 
+#### Update to latest version *(if necessary)*
+- Run `git pull origin master`
+
 ## To-do
 - [x] Environment for Heroku Hosted (v1.0.1)
 - [x] Persistent Menu (v1.0.3)
