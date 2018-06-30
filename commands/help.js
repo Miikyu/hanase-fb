@@ -25,11 +25,7 @@ module.exports = (bot) => {
     });
 
     bot.on('postback:HELP_ANIMAN', (payload, chat) => {
-        chat.say(`
-            \n
-            anime [name] - Anime Lookup
-            manga [name] - Manga Lookup
-        `, {typing: true});
+        chat.say(`\nanime [name] - Anime Lookup\nmanga [name] - Manga Lookup`, {typing: true});
     });
     
     bot.on('postback:HELP_FUNGEN', (payload, chat) => {
