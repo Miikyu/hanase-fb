@@ -36,6 +36,7 @@ module.exports = (bot) => {
         chat.say(`
             \n
             gif [keywords] - Random Gifs using your Keywords
+            hey~ [words] - Hanase will give you Opinions and Answer.
         `, {typing: true});
     });
     
