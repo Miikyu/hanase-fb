@@ -21,6 +21,7 @@
   "author": "Miikyu (Rygna)",
   "license": "MIT",
   "dependencies": {
+    "8ball": "^1.0.6",
     "body-parser": "^1.18.3",
     "bootbot": "^1.0.15",
     "chalk": "^2.4.1",
