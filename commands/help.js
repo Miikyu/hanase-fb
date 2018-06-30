@@ -25,21 +25,14 @@ module.exports = (bot) => {
     });
 
     bot.on('postback:HELP_ANIMAN', (payload, chat) => {
-        chat.say(`\nanime [name] - Anime Lookup\nmanga [name] - Manga Lookup`, {typing: true});
+        chat.say(`\nanime [name] - Anime Lookup\n\nmanga [name] - Manga Lookup`, {typing: true});
     });
     
     bot.on('postback:HELP_FUNGEN', (payload, chat) => {
-        chat.say(`
-            \n
-            gif [keywords] - Random Gifs using your Keywords
-            hey~ [words] - Hanase will give you Opinions and Answer.
-        `, {typing: true});
+        chat.say(`\ngif [keywords] - Random Gifs using your Keywords\n\nhey~ [words] - Hanase will give you Opinions and Answer.`, {typing: true});
     });
     
     bot.on('postback:HELP_CONVO', (payload, chat) => {
-        chat.say(`
-            \n
-            - For now, unavailable -
-        `, {typing: true});
+        chat.say(`\n- For now, unavailable -`, {typing: true});
     });
 };
