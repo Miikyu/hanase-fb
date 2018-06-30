@@ -24,7 +24,8 @@ Version *(v1.0.0)*-*(v1.0.3)* is on my local computer (not GitHub).
     - [x] Help (v1.0.0)
     - [x] Greetings & Getting Started Button (v1.0.1)
     - [x] Giphy (v1.0.5)
-    - [ ] Conversation & 8ball *(Discord Style bruh)*
+    - [x] 8ball *(Discord Style bruh)*
+    - [ ] Simple Conversation
     - [ ] Anime & Manga Lookup *(Must lel)*
 
 *(i'll add more features for sure)*
