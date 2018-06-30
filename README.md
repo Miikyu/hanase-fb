@@ -3,6 +3,7 @@ Allow Facebook and Messenger users to find Anime &amp; Manga information for Fre
 Version *(v1.0.0)*-*(v1.0.3)* is on my local computer (not GitHub).
 
 #### This is still an Alpha &amp; Testing Project!
+#### for some reason, i need to add Hanase Pages [Hanase on Facebook](https://facebook.com/ryHanase/)
 
 ## Getting Started
 1. Clone or Download latest **hanase-fb**
