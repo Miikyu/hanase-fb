@@ -1,4 +1,4 @@
-# hanase-fb
+# hanase-fb [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMiikyu%2Fhanase-fb.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMiikyu%2Fhanase-fb?ref=badge_shield)
 Allow Facebook and Messenger users to find Anime &amp; Manga information for Free! (with some cool features too)
 Version *(v1.0.0)*-*(v1.0.3)* is on my local computer (not GitHub).
 
