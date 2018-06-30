@@ -7,16 +7,7 @@ Version *(v1.0.0)*-*(v1.0.3)* is on my local computer (not GitHub).
 ## Getting Started
 1. Clone or Download latest **hanase-fb**
 2. Run `npm install`
-3. Create `.env` files, and add this:
-    ```env
-    VERSION=1.0.4
-    ACCESS_TOKEN=
-    VERIFY_TOKEN=
-    APP_SECRET=
-
-    DISABLE_INPUT=false
-    ```
-4. Fill `ACCESS_TOKEN`, `VERIFY_TOKEN`, &amp; `APP_SECRET` with your Facebook Apps Details.
+4. Edit `.env` and Fill `ACCESS_TOKEN`, `VERIFY_TOKEN`, &amp; `APP_SECRET` with your Facebook App Details.
 5. Done?, You're ready to go!, run `npm start` or `node index.js`
 
 ## To-do
