@@ -1,6 +1,6 @@
 {
   "name": "hanase-fb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a simple Facebook & Messenger bot for weeaboo",
   "main": "index.js",
   "scripts": {
