@@ -27,10 +27,22 @@ module.exports = (bot) => {
     bot.on('postback:HELP_ANIMAN', (payload, chat) => {
         chat.say(`
             \n
-            anime [name] - Anime Lookup\n
-            manga [name] - Manga Lookup\n
-            animerandom - I'll give you Random Anime recommendation!\n
-            mangarandom - Random recommendation tho!, but it's manga\n
+            anime [name] - Anime Lookup
+            manga [name] - Manga Lookup
+        `, {typing: true});
+    });
+    
+    bot.on('postback:HELP_FUNGEN', (payload, chat) => {
+        chat.say(`
+            \n
+            gif [keywords] - Random Gifs using your Keywords
+        `, {typing: true});
+    });
+    
+    bot.on('postback:HELP_CONVO', (payload, chat) => {
+        chat.say(`
+            \n
+            - For now, unavailable -
         `, {typing: true});
     });
 };
