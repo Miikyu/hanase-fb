@@ -17,7 +17,7 @@ exports.animeFindTitleEN = function(query, offset) {
                 reject(Error(error))
             } else {
                 var allofit = JSON.parse(body)
-                var results = allofit.data.attributes[title].en_jp
+                var results = allofit.data.attributes[0]
                 resolve(results)
             }
         })
