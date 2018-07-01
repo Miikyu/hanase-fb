@@ -6,9 +6,9 @@ module.exports = (bot) => {
    const query = data.match[1];
    	chat.say('L-let me pull some information about this anime...');
 		fetch('https://kitsu.io/api/edge/anime?filter[text]=' + query)
-		  .then(res => res.json())
-		  .then(json => {
-		    chat.say(`Name: ${json.data.attributes}`);
-      });
+			.then(res => res.json())
+			.then(json => {
+				chat.say(json.data.id)
+			});
   });
 };
