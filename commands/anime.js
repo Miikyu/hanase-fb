@@ -11,5 +11,5 @@ module.exports = (bot) => {
         chat.say('Check Log!');
         console.log(result[0]);
       });
-  };
+  });
 };
