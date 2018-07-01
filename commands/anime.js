@@ -8,7 +8,7 @@ module.exports = (bot) => {
 		fetch('https://kitsu.io/api/edge/anime?filter[text]=' + query)
 		  .then(res => res.json())
 		  .then(json => {
-		    chat.say(`Name: ${json.data.titles.ja_jp}`);
+		    chat.say(`Name: ${json.data.attributes.titles.ja_jp}`);
       });
   });
 };
