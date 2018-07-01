@@ -3,7 +3,7 @@ const request = require('request');
 // Kitsu API
 // Original Source from the-conceptionist/node-kitsu
 
-exports.searchAnime = function(query, offset) {
+exports.animeFindTitleEN = function(query, offset) {
     return new Promise(function(resolve, reject) {
         request({
             method: 'GET',
@@ -17,7 +17,7 @@ exports.searchAnime = function(query, offset) {
                 reject(Error(error))
             } else {
                 var allofit = JSON.parse(body)
-                var results = allofit.data
+                var results = allofit.data.attributes.titles.en_jp
                 resolve(results)
             }
         })
