@@ -8,7 +8,7 @@ module.exports = (bot) => {
    	chat.say('L-let me pull some information about this anime...');
 		kitsu.searchAnime(querys, 0).then(results => {
 			chat.say('Check Log');
-    	console.log(results[id]);
+    	console.log(results[1]);
 	});
   });
 };
