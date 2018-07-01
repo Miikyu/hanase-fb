@@ -1,12 +1,14 @@
 'use strict';
-const kitsu = require('node-kitsu');
+const fetch = require('node-fetch');
 
 module.exports = (bot) => {
   bot.hear(/animu (.*)/i, (payload, chat, data) => {
-    const queryChat = data.match[1];
-    chat.say('Okay!, Please w-wait..');
-    kitsu.searchAnime(queryChat, 0).then(results => {
-      chat.say(results[0]);
-    });
+   const query = data.match[1];
+   	chat.say('L-let me pull some information about this anime...');
+		fetch('https://kitsu.io/api/edge/anime?filter[text]=' + query)
+		  .then(res => res.json())
+		  .then(json => {
+		    chat.say(`Name: ${json.data.titles.ja_jp}`);
+      });
   });
 };
